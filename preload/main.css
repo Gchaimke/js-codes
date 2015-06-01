@@ -1,5 +1,5 @@
 .loader{
-	background: none repeat scroll 0 0 #ffffff;
+	background: none repeat scroll 0 0 #000;
 	bottom: 0;
 	height: 100%;
 	left: 0;
@@ -9,17 +9,16 @@
 	width: 100%;
 	z-index: 9999;
 }
-.loaderInner{
-	background-image: url("../img/load.gif");
+.loader_inner{
+	background-image: url("../img/preloader.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: #fff;
-	height: 60px;
-	width: 60px;
-	margin-top: -30px;
-	margin-right: -30px;
-	left: 50%;
+	height: 160px;
+	width: 160px;
+	margin-top: -80px;
+	margin-right: -80px;
+	top: 50%;
 	right: 50%;
 	position: absolute;
 }
