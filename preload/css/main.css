@@ -1,0 +1,13 @@
+html,body{margin: 0;}
+
+.head_height{
+background-image: url("../img/background_header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+  background-position-y: 40%;
+  background-color: #fff;
+  position: relative;
+  min-height: 620px;
+  z-index: 1;
+}
